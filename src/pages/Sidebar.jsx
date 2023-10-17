@@ -3,6 +3,7 @@ import {TbSettings2} from 'react-icons/tb'
 import {AiOutlineHeart, AiFillHome} from 'react-icons/ai'
 import {PiSquaresFourLight, PiEnvelopeSimple} from 'react-icons/pi'
 import {FaRegEdit} from 'react-icons/fa'
+import { MdKeyboardArrowRight } from 'react-icons/md'
 
 const sideItems = [
   {
@@ -51,7 +52,10 @@ const Sidebar = () => {
     }
   
     </div>
-   
+   <div className='flex gap-2 text-blue-950 pt-64 items-center'>
+   <MdKeyboardArrowRight className=' rounded-xl  text-[25px] border border-blue-950  p-[2px]'/>
+    <h4>Logout</h4>
+   </div>
     </div>
   )
 }
